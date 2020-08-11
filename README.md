@@ -1,6 +1,6 @@
 # Gas Costs for Sorting Algorithms in Solidity
 
-This implementation doesn't write to Blockchain or read data from it. No member fields are altered. No dynamic arrays in “storage” are accessed. This is meant for methods executing math and math alone, only operating on the input and not the contract stored values.
+This implementation doesn't write to Blockchain or read data from it. No member fields are altered. No dynamic arrays in “storage” are accessed. This is meant for methods executing math solely, only operating on the input and not the contract stored values.
 
 ## Getting Started
 
@@ -60,7 +60,7 @@ Finally, you'll see the test results.
 ### Failed Tests?
 If there's a failed test that exceeds the block gas limit, the truffle test won't show the results of successful results.
 
-Solution: replace the data file(json) with another which is not included the failed data
+Solution: replace the data file(json) with another one which does not contain the failed data
 
 ### How do we calculate the Gas through the test?
 
